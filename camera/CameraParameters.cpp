@@ -26,6 +26,10 @@
 
 namespace android {
 // Parameter keys to communicate between camera application and driver.
+const char CameraParameters::KEY_SUPPORTED_FACE_DETECTION[] = "face-detection-values";
+const char CameraParameters::KEY_ZSL[] = "zsl"; 
+const char CameraParameters::KEY_ISO_MODE[] = "iso"; 
+const char CameraParameters::KEY_FACE_DETECTION[] = "face-detection";
 const char CameraParameters::KEY_PREVIEW_SIZE[] = "preview-size";
 const char CameraParameters::KEY_SUPPORTED_PREVIEW_SIZES[] = "preview-size-values";
 const char CameraParameters::KEY_PREVIEW_FORMAT[] = "preview-format";
